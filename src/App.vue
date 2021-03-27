@@ -1,27 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <NavBar></NavBar>
+  <Hero></Hero>
+  <About></About>
+  <Features></Features>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './sections/NavBar.vue'
+import Hero from './sections/Hero.vue'
+import About from './sections/About.vue'
+import Features from './sections/Features.vue'
+import Footer from './sections/Footer.vue'
+import { Options, Vue } from 'vue-class-component';
 
-export default defineComponent({
-  name: 'App',
+@Options({
   components: {
-    HelloWorld
+    NavBar,
+    Hero,
+    About,
+    Features,
+    Footer
   }
 })
+export default class App extends Vue {
+
+}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
