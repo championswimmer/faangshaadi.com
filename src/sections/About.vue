@@ -4,8 +4,8 @@
     </div>
 </template>
 
-<script lang="ts">import { Options, Vue } from "vue-class-component";
-
+<script lang="ts">
+import { Options, Vue } from "vue-property-decorator";
 
 @Options({})
 export default class About extends Vue {

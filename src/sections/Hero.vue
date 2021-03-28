@@ -1,25 +1,38 @@
 <template>
-    <div class="row p-4 p-md-5 mb-4">
-        <div class="col">
-            <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-            <p
-                class="lead my-3"
-            >Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-            <p class="lead mb-0">
-                <a href="#" class="font-monospace fw-bold">Continue reading...</a>
-            </p>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img
+          src="@/assets/illustrations/marriage.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          loading="lazy"
+          width="700"
+          height="500"
+        />
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">FAANG Shaadi</h1>
+        <p class="lead">
+          Finding your soulmate among the top tech companies, because you
+          deserve no less.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary text-white btn-lg px-4 me-md-2">
+            Sign up
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Learn More
+          </button>
         </div>
-        <div class="col p-4">
-            <img src="@/assets/illustrations/holding-hands.svg">
-        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-
+import { Options, Vue } from 'vue-property-decorator';
 
 @Options({})
-export default class Hero extends Vue {
-}
+export default class Hero extends Vue {}
 </script>
