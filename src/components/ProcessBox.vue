@@ -1,6 +1,6 @@
 <template>
-  <div class="col-4 my-2">
-    <div class="my-5 p-5 h-50">
+  <div class="col-md-4 my-2">
+    <div class="mt-3 p-2 p-md-5 h-50">
     <img class="img-fluid" :src="imgUrl">
     </div>
     <h3 class="my-4 fw-normal">{{title}}</h3>
