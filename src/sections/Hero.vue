@@ -99,9 +99,10 @@
           >
             > sign up
           </a>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+          <!-- TODO: show youtube video on this -->
+          <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">
             > learn more
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
@@ -118,7 +119,9 @@ export default class Hero extends Vue {
   logoMult = 3;
 
   mounted() {
-    this.updateLogos({clientX: 0, clientY: 0} as MouseEvent);
+    setTimeout(() => {
+      this.updateLogos({clientX: 200, clientY: 200} as MouseEvent);
+    }, 1000)
     
     // @ts-ignore
     ;(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()

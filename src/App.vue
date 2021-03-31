@@ -1,9 +1,9 @@
 <template>
-  <NavBar></NavBar>
-  <Hero></Hero>
-  <Features></Features>
-  <About></About>
-  <Footer></Footer>
+  <NavBar id="navbar"></NavBar>
+  <Hero id="hero"></Hero>
+  <Features id="features"></Features>
+  <About id="about"></About>
+  <Footer id="footer"></Footer>
 </template>
 
 <script lang="ts">
