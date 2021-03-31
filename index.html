@@ -1,347 +1,44 @@
 <!DOCTYPE html>
-<html class="cspio">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>FAANG Shaadi</title>
-
-		<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="Connecting soulmates from top tech companies">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:url" content="https://faangshaadi.com" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="FAANG Shaadi" />
-	<meta property="og:description" content="Connecting soulmates from top tech companies" />
-	
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- Bootstrap and default Style -->
-	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
-
-
-
-	<!-- Google Fonts -->
-						
-			
-	<!-- RTL -->
-
-
-
-	
-
-
-	<!-- Calculated Styles -->
-	<style type="text/css">
-	
-	
-	
-	
-	/* Background Style */
-	html{
-		height:100%;
-						background: #f1bcb0 url(https://images.unsplash.com/6/blurred_lines.jpeg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=a33179f7582231db0ad221d5db4b3894) no-repeat center top fixed;
-									-webkit-background-size: cover;
-					-moz-background-size: cover;
-					-o-background-size: cover;
-					background-size: cover;
-					    	}
-
-		#cspio-page{
-		background-color: rgba(213,77,129,0.85);
-	}
-	
-	.flexbox #cspio-page{
-			align-items: center;
-		justify-content: center;
-										}
-
-
-
-	.cspio body{
-		background: transparent;
-	}
-
-
-    /* Text Styles */
-    	    .cspio body, .cspio body p{
-	        font-family: Georgia, serif;
-			font-weight: 400;
-			font-style: ;
-	        font-size: 16px;
-	        line-height: 1.50em;
-	        	        color:#ffffff;
-	        	 	}
-
-		::-webkit-input-placeholder {
-			font-family:Georgia, serif;
-			font-weight: 400;
-			font-style: ;
-		}
-		::-moz-placeholder {
-			font-family:Georgia, serif;
-			font-weight: 400;
-			font-style: ;
-		} /* firefox 19+ */
-		:-ms-input-placeholder {
-			font-family:Georgia, serif;
-			font-weight: 400;
-			font-style: ;
-		} /* ie */
-		:-moz-placeholder {
-			font-family:Georgia, serif;
-			font-weight: 400;
-			font-style: ;
-		}
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-
-
-	    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-	    	        font-family: 'Bookman Old Style', serif;
-	    	        	        color:#ffffff;
-	        	    }
-		#cspio-headline{
-					font-family: 'Bookman Old Style', serif;
-			font-weight: 700;
-			font-style: ;
-					font-size: 42px;
-			color:#ffffff;
-			line-height: 1.00em;
-		}
-
-    	    .cspio button{
-	        font-family: 'Times New Roman', Times,serif;
-			font-weight: 400;
-			font-style: ;
-	    }
-	
-    /* Link Styles */
-    		.cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-			color: #ffffff;
-		}
-
-
-		#cspio-socialprofiles a {
-  color: #ffffff;
-}
-.cspio .btn-primary,
-.cspio .btn-primary:focus,
-.gform_button,
-#mc-embedded-subscribe,
-.mymail-wrapper .submit-button {
-  color: black;
-  text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-  background-color: #ffffff;
-  background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-  background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-  background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-  background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-  background-image: linear-gradient(top,#ffffff,#d9d9d9);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-  border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-  *background-color: #d9d9d9;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
-.cspio .btn-primary:hover,
-.cspio .btn-primary:active,
-.cspio .btn-primary.active,
-.cspio .btn-primary.disabled,
-.cspio .btn-primary[disabled],
-.cspio .btn-primary:focus:hover,
-.cspio .btn-primary:focus:active,
-.cspio .btn-primary:focus.active,
-.cspio .btn-primary:focus.disabled,
-.cspio .btn-primary:focus[disabled],
-.gform_button:hover,
-.gform_button:active,
-.gform_button.active,
-.gform_button.disabled,
-.gform_button[disabled],
-#mc-embedded-subscribe:hover,
-#mc-embedded-subscribe:active,
-#mc-embedded-subscribe.active,
-#mc-embedded-subscribe.disabled,
-#mc-embedded-subscribe[disabled],
-.mymail-wrapper .submit-button:hover,
-.mymail-wrapper .submit-button:active,
-.mymail-wrapper .submit-button.active,
-.mymail-wrapper .submit-button.disabled,
-.mymail-wrapper .submit-button[disabled] {
-  background-color: #d9d9d9;
-  *background-color: #cccccc;
-}
-.cspio .btn-primary:active,
-.cspio .btn-primary.active,
-.cspio .btn-primary:focus:active,
-.cspio .btn-primary:focus.active,
-.gform_button:active,
-.gform_button.active,
-#mc-embedded-subscribe:active,
-#mc-embedded-subscribe.active,
-.mymail-wrapper .submit-button:active,
-.mymail-wrapper .submit-button.active {
-  background-color: #bfbfbf \9;
-}
-.form-control,
-.progress {
-  background-color: #ffffff;
-}
-#cspio-progressbar span,
-.countdown_section {
-  color: black;
-  text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-}
-.cspio .btn-primary:hover,
-.cspio .btn-primary:active {
-  color: black;
-  text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-  border-color: #e6e6e6;
-}
-.cspio input[type='text']:focus {
-  webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-}
+    <!--  SEO -->
+    <title>FAANG Shaadi - Premium Matchmaking for 10x Engineers at Top Tech Companies</title>
+    <meta name="description" content="The ultimate matrimonial destination for FAANG and other top tech company employees to find their soulmate">
     
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://FAANGShaadi.com/">
+    <meta property="og:title" content="FAANG Shaadi - Premium Matchmaking for 10x Engineers at Top Tech Companies">
+    <meta property="og:description" content="The ultimate matrimonial destination for FAANG and other top tech company employees to find their soulmate">
+    <meta property="og:image" content="/illustrations/fs-how-matchmaking.svg">
 
-    #cspio-content {
-  max-width: 600px;
-  background-color: #000000;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://FAANGShaadi.com/">
+    <meta property="twitter:title" content="FAANG Shaadi - Premium Matchmaking for 10x Engineers at Top Tech Companies">
+    <meta property="twitter:description" content="The ultimate matrimonial destination for FAANG and other top tech company employees to find their soulmate">
+    <meta property="twitter:image" content="/illustrations/fs-how-matchmaking.svg">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7VKJ7YYP2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-        #cspio-content{
-    	background-color:transparent;
-    }
-    
-    
-		.cspio .progress-bar,
-.countdown_section,
-.cspio .btn-primary,
-.cspio .btn-primary:focus,
-.gform_button {
-  background-image: none;
-  text-shadow: none;
-}
-.countdown_section,
-.cspio .progress-bar {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.cspio input,
-.cspio input:focus {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
-	
-		
-						
-
-				html {
-				height: 100%;
-				overflow: hidden;
-				}
-				body
-				{
-				height:100%;
-				overflow: auto;
-				-webkit-overflow-scrolling: touch;
-				}
-
-					
-
-		input, button, .cspio .progress, .countdown_section{
-    border-radius: 90px !important;
-    border: none !important;
-}
-
-::-webkit-input-placeholder { color:#333 !important; }
-::-moz-placeholder { color:#333 !important; } /* firefox 19+ */
-:-ms-input-placeholder { color:#333 !important; } /* ie */
-input:-moz-placeholder { color:#333 !important; }
-
-	
-
-	
-	</style>
-	<!-- JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- FitVid -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
-	<!-- Scripts -->
-	<script src="https://static.comingsoonpage.com/cspio-assets/1.0.0/scripts.js"></script>
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<!-- Retina JS -->
-	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>-->
-	<!-- Tubular -->
-	
-
-<!-- Header Scripts -->
-	
-<!-- Google Analytics -->
+      gtag('config', 'G-D7VKJ7YYP2');
+    </script>
+  <script type="module" crossorigin src="/assets/index.9aef2faf.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.c5b5f65b.js">
+  <link rel="stylesheet" href="/assets/index.08ca740d.css">
 </head>
-<body>
-	<div id="cspio-page">
-		<div id="cspio-content">
-						    			    			    				
-						    			    <h1 id="cspio-headline">FAANG Shaadi</h1>			    				
-						    			    <div id="cspio-description"><p>CTC Matters. Candidate Masters matter. You did not fight through 5 rounds of Data Structures and Algorithms only to settle for 1* CodeChef soulmates. At FAANG Shaadi you only find those who speak C++ and Java - for true connection between hearts. </p><p><br></p><p>..... COMING SOON .....<br></p></div>			    				
-						    			    			    				
-						    			    			    				
-						    			    			    				
-						    			    <div id="cspio-socialprofiles">
-									<a href="https://twitter.com/championswimmer" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>			
-									<a href="https://linkedin.com/in/arnavgupta" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>			
-								</div>
-									    				
-						    			    			    				
-						    			     			    				
-			
-		</div><!-- end of #seed-cspio-content -->
-									<!-- This attribution is required to use this page under our free license. -->
-			<div id="cspio-credit" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
-				<span><a target="_blank" href="https://www.comingsoonpage.com">Coming Soon Page</a> by <a target="_blank" href="https://www.comingsoonpage.com"><img id="aff" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/comingsoonpage.com-logo.png"/></a>
-			</div>
-			</div>
-
-	<script>jQuery(document).ready(function($){$("#cspio-description,#cspio-thankyoumsg").fitVids();});</script>
-
-	<!-- Animate -->
-	
-	
-		
-	<script>
-	function resize(){
-			$('head').append("<style id='form-style' type='text/css'></style>");
-			$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-	}
-	
-	$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-		var width = $('#cspio-field-wrapper').width();
-		//console.log(width);
-		if(width < 480 && width != 0){
-			resize();
-		}
-	}
-	);
-	</script>
-
-
-
-
-	
-	</body>
+  <body>
+    <div id="app"></div>
+    
+  </body>
 </html>
-
-
-<!-- This page was generated by ComingSoonPage.com | Learn more: http://www.comingsoonpage.com -->
