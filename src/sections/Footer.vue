@@ -76,7 +76,7 @@
       FAANGShaadi.com © 2021 · FAANG Shaadi Pvt. Ltd.
     </div>
     <div class="text-center fw-light text-white-50 mt-1">
-      FAANGShaadi is a fully owned subsidary of
+      FAANGShaadi has been acquired and is a fully owned subsidary of
       <a href="https://interviewbit.com">InterviewBit Technologies Pvt. Ltd.</a>
     </div>
   </div>
