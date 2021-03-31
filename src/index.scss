@@ -1,24 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Playfair+Display&family=JetBrains+Mono&display=swap');
+@import "./styles/typography";
 
-$font-family-sans-serif: 'Karla', sans-serif;
-$font-family-serif: 'Playfair Display', serif;
-$font-family-monospace: 'JetBrains Mono', serif;
-$headings-font-family: $font-family-serif;
-
-$primary: #fc4f4f; // TODO: https://getbootstrap.com/docs/5.0/customize/sass/#importing
-
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
-
-// @each $display, $font-size in $display-font-sizes {
-//   .display-#{$display} {
-//     font-family: $font-family-serif;
-//   }
-// }
-
-.font-display {
-  font-family: $font-family-serif;
-}
+@import "./styles/bootstrap";
 
 .feature-icon {
   display: inline-flex;

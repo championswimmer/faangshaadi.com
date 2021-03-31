@@ -1,0 +1,14 @@
+$body-bg: #fffbef !default;
+$primary: #f26240 !default;
+$gray-900: #012e41 !default;
+
+// TODO: https://getbootstrap.com/docs/5.0/customize/sass/#importing
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+@each $display, $font-size in $display-font-sizes {
+  .display-#{$display} {
+    font-family: $font-family-serif;
+  }
+}

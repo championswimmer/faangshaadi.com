@@ -11,11 +11,11 @@ export const features: Array<Feature> = [
     description: 
     `All profiles have gone 
     through a mandatory
-    FizzBuzz test and
+    \`FizzBuzz\` test and
     Linkedin-verified  for 
     current or past
     experience in a top tech
-    company`
+    company.`
   },
   {
     title: "AI-Powered Matchmaking",
@@ -34,11 +34,11 @@ export const features: Array<Feature> = [
     icon: "search",
     description: 
     `Search, sort and filter
-    based on years of exp,
-    CTC, stocks vested,
-    LeetCode rank. Filter
-    for L5+ only? Possible.
-    Custom GraphQL console
+    based on **YoE** (years of experience),
+    **CTC** (compensation), stocks vested,
+    LeetCode rank.   
+    Filter for L5 and above only? Possible.  
+    Custom **GraphQL** console
     for power users`
   }
 ]

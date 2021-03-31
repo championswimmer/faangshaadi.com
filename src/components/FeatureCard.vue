@@ -4,7 +4,7 @@
       <i class="bi" :class="icon"></i>
     </div>
     <h2>{{ title }}</h2>
-    <p>{{ description }}</p>
+    <p v-html="description"></p>
     <a href="#" class="icon-link">
       Call to action
       <svg class="bi" width="1em" height="1em">
@@ -17,13 +17,14 @@
 <script lang="ts">
 import { Options, Prop, Vue } from 'vue-property-decorator';
 import { Feature, features } from '@/data/features';
+import marked from 'marked'
 
-@Options({})
+@Options({ filters: {marked} })
 export default class FeatureCard extends Vue {
   @Prop(Object) readonly feature!: Feature;
 
   title = this.feature.title;
   icon = `bi-${this.feature.icon}`;
-  description = this.feature.description;
+  description = marked(this.feature.description)
 }
 </script>

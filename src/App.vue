@@ -1,8 +1,8 @@
 <template>
   <NavBar></NavBar>
   <Hero></Hero>
-  <About></About>
   <Features></Features>
+  <About></About>
   <Footer></Footer>
 </template>
 
