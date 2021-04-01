@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto row">
+    <div class="container mx-auto row mb-1">
         <ProcessBox 
             v-for="(process, idx) in processes" 
             :key="idx"

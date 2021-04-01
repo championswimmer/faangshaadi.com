@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-4 my-2">
+  <div class="col-lg-4 my-2 h-100">
     <div class="mt-3 p-2 p-md-5 h-50">
     <img class="img-fluid" :src="imgUrl">
     </div>

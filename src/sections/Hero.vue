@@ -90,7 +90,6 @@
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <a
-            type="button"
             class="btn btn-primary text-white btn-lg px-4 me-md-2 typeform-share"
             href="https://form.typeform.com/to/lrOloaut?typeform-medium=embed-snippet"
             data-mode="popup"
@@ -99,20 +98,25 @@
           >
             > sign up
           </a>
-          <!-- TODO: show youtube video on this -->
-          <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+          <button 
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal"
+              type="button" 
+              class="btn btn-outline-dark btn-lg px-4">
             > learn more
-          </button> -->
+          </button>
         </div>
       </div>
     </div>
+    <VideoModal></VideoModal>
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-property-decorator';
+import VideoModal from '@/components/VideoModal.vue'
 
-@Options({})
+@Options({ components: { VideoModal }})
 export default class Hero extends Vue {
   logoPointX = 250;
   logoPointY = 100;
