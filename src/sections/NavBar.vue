@@ -1,14 +1,23 @@
 <template>
   <nav class="navbar navbar-light navbar-expand-md bg-light">
     <div class="container-fluid ms-2 mt-2">
-      <a class="navbar-brand" href="#">
-        <img
-          src="@/assets/fs-logo-main.svg"
-          alt="FAANGShaadi Logo"
-          height="40"
-        />
-      </a>
-
+      <div class="navbar-brand">
+        <a class="navbar-brand" href="#">
+          <img
+            src="@/assets/fs-logo-main.svg"
+            alt="FAANGShaadi Logo"
+            height="40"
+          />
+        </a>
+        <a
+          href="https://www.producthunt.com/posts/faang-shadi?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faang-shadi"
+          target="_blank"
+          ><img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290278&theme=light"
+            alt="FAANG Shadi - Finding your soulmate among the top tech companies | Product Hunt"
+            height="48"
+        /></a>
+      </div>
       <button
         class="navbar-toggler"
         type="button"
